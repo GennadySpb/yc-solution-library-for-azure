@@ -16,9 +16,9 @@ output "yc_federation_id" {
   ${yandex_organizationmanager_saml_federation.yc_federation.id}
   ---
   Use the following URL for Identitifier (Entity ID) in Azure AD SAML Configuration: 
-  https://console.cloud.yandex.ru/federations/${yandex_organizationmanager_saml_federation.yc_federation.id}
+  https://auth.cloudil.co.il/federations/${yandex_organizationmanager_saml_federation.yc_federation.id}
   ---
   Use the following URL for Reply URL in Azure AD SAML Configuration:"
-  https://console.cloud.yandex.ru/federations/${yandex_organizationmanager_saml_federation.yc_federation.id}
+  https://auth.cloudil.co.il/federations/${yandex_organizationmanager_saml_federation.yc_federation.id}
   EOT
 }
